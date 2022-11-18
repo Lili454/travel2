@@ -1,88 +1,68 @@
-{
-"orders":[
-{
-"orderNumber": 12345,
-"orderDate": "22-11-2022",
-"overallOrderStatus": "ordered",
-"manageBooking": "possible",
-"courier": "UPS",
-"estimatedDelDate": "29-11-2022",
-"items": [
-{
-"booking": 1,
-"details": [
-{
-"country": "Spain",
-"city": "Barcelona",
-"location": "41.3485806,1.9787689",
-"people": 4,
-"days": 5,
-"arrivalDate": "29-11-2022",
-"url": "https://img.freepik.com/premium-photo/home-house-exterior-design-showing-tropical-pool-villa-with-greenery-garden_41487-488.jpg?size=626&ext=jpg&ga=GA1.2.204480486.1667913872&semt=sph"
-}
-]
-},
-{
-"country": "Spain",
-"city": "Barcelona",
-"location": "41.3485806,1.9787689",
-"people": 4,
-"days": 5,
-"arrivalDate": "29-11-2022",
-"url": "https://img.freepik.com/premium-photo/home-house-exterior-design-showing-tropical-pool-villa-with-greenery-garden_41487-488.jpg?size=626&ext=jpg&ga=GA1.2.204480486.1667913872&semt=sph"
-}
-]
-}
-]
-},
-{
-"orderNumber": 54321,
-"orderDate": "29-11-2022",
-"overallOrderStatus": "shipped",
-"manageBooking": "not_possible",
-"deliveryDate": "05-12-2022",
-"courier": "DHL",
-"estimatedDelDate": "05-12-2022",
-"items": [
-{
-"booking": 1,
-"details": [
-{
-"country": "Finland",
-"city": "Rovaniemi",
-"location": "66.631137,25.250602",
-"people": 10,
-"days": 7,
-"arrivalDate": "22-12-2022",
-"url": "https://images.unsplash.com/photo-1571140841478-1d7965677447?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdXNlJTIwZmlubGFuZCUyMHdpbnRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-}
-]
-}
-]
-},
-{
-"orderNumber": 12321,
-"orderDate": "15-11-2022",
-"overallOrderStatus": "ordered",
-"manageBooking": "possible",
-"courier": "DHL",
-"estimatedDelDate": "20-11-2022",
-"items": [
-{
-"booking": 1,
-"details": [
-{
-"country": "The Neatherlands",
-"city": "Amsterdam",
-"location": "52.358157,4.907564",
-"people": 2,
-"days": 4,
-"arrivalDate": "20-04-2023",
-"url": "https://img.freepik.com/free-photo/modern-living-room-style_53876-144814.jpg?size=626&ext=jpg&ga=GA1.2.204480486.1667913872&semt=sph"
-}
-  ]
-}
-]
-}
+{"bookings":
+ [
+  {
+    "bookingNo": 12321,
+    "rentals": [
+      {
+        "rentalNo": 1,
+        "rentalDetails": [
+          {
+            "name": "Alex's Place",
+            "country": "Spain",
+            "city": "Barcelona",
+            "numOfGuests": 2,
+            "checkIn": "12-12-2022",
+            "checkOut": "16-12-2022",
+            "address": "Ultimate drive 5, 00010 Ultimate",
+            "location": "41.3485806,1.9787689",
+            "days": 4,
+            "refundable": "TRUE",
+           "url": "https://cdn.pixabay.com/photo/2018/06/14/21/15/bedroom-3475656_960_720.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bookingNo": 12345,
+    "rentals": [
+      {
+        "rentalNo": 1,
+        "rentalDetails": [
+          {
+            "name": "Alex's Place",
+            "country": "The Neatherlands",
+            "city": "Amsterdam",
+            "numOfGuests": 4,
+            "checkIn": "12-01-2023",
+            "checkOut": "16-01-2023",
+            "address": "Ultimate drive 5, 00010 Ultimate",
+            "location": "52.358157,4.907564",
+            "days": 4,
+            "refundable": "FALSE",
+           "url": "https://cdn.pixabay.com/photo/2018/06/14/21/15/bedroom-3475656_960_720.jpg"
+          }
+        ]
+      },
+      {
+        "rentalNo": 2,
+        "rentalDetails": [
+          {
+            "name": "Chrissy's Home",
+            "country": "Germany",
+            "city": "Berlin",
+            "numOfGuests": 2,
+            "checkIn": "16-12-2022",
+            "checkOut": "20-12-2022",
+            "address": "Ultimate drive 10, 00010 Ultimate",
+            "location": "52.484605, 13.372541",
+            "days": 4,
+            "refundable": "TRUE",
+           "url": "https://cdn.pixabay.com/photo/2021/08/27/01/33/bedroom-6577523_960_720.jpg"
+          }
+        ]
+      }
+    ]
+  }
 ]
 }
